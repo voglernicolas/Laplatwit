@@ -63,14 +63,12 @@ class Message extends Component {
         <div className={styles.buttons}>
           <div
             className={styles.icon}
-            onClick={this.props.onReplyTweet}
-          >
+            onClick={this.props.onReplyTweet}>
             <span className='fa fa-reply' />
           </div>
           <div
             className={(this.state.pressRetweet) ? styles.rtGreen : ''}
-            onClick={this.onPressRetweet}
-          >
+            onClick={this.onPressRetweet}>
             <span className='fa fa-retweet' />
             <span className={styles.num}>{this.props.numRetweets}</span>
           </div>
