@@ -4,7 +4,7 @@ import firebase from 'firebase'
 
 // Firebase App
 firebase.initializeApp({
-  apiKey: 'AIzaSyCT_aFCtTxx0_2X1GhA4QtfoHKjr_5ALFU',
+  apiKey: '',
   authDomain: 'reacter-e4c51.firebaseapp.com',
   databaseURL: 'https://reacter-e4c51.firebaseio.com',
   projectId: 'reacter-e4c51',
