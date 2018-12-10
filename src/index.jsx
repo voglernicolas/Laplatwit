@@ -2,7 +2,6 @@ import React from 'react'
 import { render } from 'react-dom'
 import firebase from 'firebase'
 
-// Firebase App
 firebase.initializeApp({
   apiKey: '',
   authDomain: 'reacter-e4c51.firebaseapp.com',
