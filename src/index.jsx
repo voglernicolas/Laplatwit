@@ -4,11 +4,11 @@ import firebase from 'firebase'
 
 firebase.initializeApp({
   apiKey: '',
-  authDomain: 'reacter-e4c51.firebaseapp.com',
-  databaseURL: 'https://reacter-e4c51.firebaseio.com',
+  authDomain: '',
+  databaseURL: '',
   projectId: 'reacter-e4c51',
   storageBucket: 'reacter-e4c51.appspot.com',
-  messagingSenderId: '157780693471'
+  messagingSenderId: ''
 })
 
 import App from './components/App'
