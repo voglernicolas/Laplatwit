@@ -20,10 +20,9 @@
     "html-webpack-plugin": "^2.24.1",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2"
+    "webpack-dev-server": ">=3.1.11"
   },
   "dependencies": {
-    "webpack-dev-server": ">=3.1.11"
     "firebase": "^4.3.0",
     "moment": "^2.18.1",
     "normalize-css": "^2.3.1",
